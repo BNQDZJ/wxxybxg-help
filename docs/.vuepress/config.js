@@ -3,6 +3,8 @@ module.exports = {
     description: '帮助中心-无锡欣跃不锈钢有限公司',
     head: [ // 注入到当前页面的 HTML <head> 中的标签
       ['link', { rel: 'icon', href: 'https://cos.bsblog.cn/B.webp' }], // 增加一个自定义的 favicon(网页标签的图标)
+      ['link', { rel: 'manifest', href: '/manifest.json' }],
+      ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ],
     base: '/', // 这是部署到github相关的配置
     markdown: {
