@@ -14,6 +14,14 @@ module.exports = {
       ],
       serviceWorker: true // 是否开启 PWA
     ,
+      plugins: [
+        [
+          '@vuepress/pwa',
+          {
+            skipWaiting: true,
+          },
+        ],
+      ],
     themeConfig: {
         navbar: [
             // NavbarItem
