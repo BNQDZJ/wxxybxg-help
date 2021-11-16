@@ -12,26 +12,29 @@ module.exports = {
     },
     plugins: ['@vuepress/back-to-top'],
     plugins: ['@vuepress/pwa'],
+    skipWaiting: true,
     serviceWorker: true,
     updatePopup: true,
     themeConfig: {
         navbar: [
             // NavbarItem
             {
-            text: '电子邮件支持 7*24h',
+            text: '电子邮件支持 7×24h',
             link: 'mailto:wdnmd.wocnmd@foxmail.com',
             },
             {
-            text: '移动电话支持 6*24h',
+            text: '移动电话支持 6×24h',
             link: 'tel:18651512055',
             },
             {
-            text: '固定电话支持 6*8h',
+            text: '固定电话支持 6×8h',
             link: 'tel:051088999735',
             },
         ],
       sidebar: 'auto', // 侧边栏配置
       sidebarDepth: 2, // 侧边栏显示2级
-      logo: 'https://cdn.jsdelivr.net/gh/BNQDZJ/bsblog/images/wxxybxg/wxxybxg.png'
+      logo: 'https://cdn.jsdelivr.net/gh/BNQDZJ/bsblog/images/wxxybxg/wxxybxg.png',
+      lastUpdated: false,
+      contributors: false
     }
   };
