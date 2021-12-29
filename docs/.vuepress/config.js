@@ -2,7 +2,7 @@ module.exports = {
     title: '帮助中心-无锡欣跃不锈钢有限公司',
     description: '帮助中心-无锡欣跃不锈钢有限公司',
     head: [ // 注入到当前页面的 HTML <head> 中的标签
-      ['link', { rel: 'icon', href: 'https://cos.eebbk.top/images/2021/12/29/96c9fd55c66aa.png' }], // 增加一个自定义的 favicon(网页标签的图标)
+      ['link', { rel: 'icon', href: 'https://imglf5.lf127.net/img/e5d5c39cbbc1c649/Z1VTeU5RUHFXZGpWYkp0eGNkSG1LSlJTVE9Hc1dJUjh6N2l1YUpMcG5YTT0.png' }], // 增加一个自定义的 favicon(网页标签的图标)
       ['link', { rel: 'manifest', href: '/manifest.webmanifest' }],
       ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ],
@@ -33,7 +33,7 @@ module.exports = {
         ],
       sidebar: 'auto', // 侧边栏配置
       sidebarDepth: 2, // 侧边栏显示2级
-      logo: 'https://cos.eebbk.top/images/2021/12/29/96c9fd55c66aa.png',
+      logo: 'https://imglf5.lf127.net/img/e5d5c39cbbc1c649/Z1VTeU5RUHFXZGpWYkp0eGNkSG1LSlJTVE9Hc1dJUjh6N2l1YUpMcG5YTT0.png',
       lastUpdated: false,
       contributors: false
     }
