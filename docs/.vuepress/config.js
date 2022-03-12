@@ -28,7 +28,7 @@ module.exports = {
             },
             {
             text: '固定电话支持 6×8h',
-            link: 'tel:051088999735',
+            link: 'tel:051083832055',
             },
         ],
       sidebar: 'auto', // 侧边栏配置
