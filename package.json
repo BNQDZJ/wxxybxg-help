@@ -6,7 +6,7 @@
   "author": "BNQDZJ <64721413+BNQDZJ@users.noreply.github.com>",
   "license": "MIT",
   "devDependencies": {
-    "vuepress": "^2.0.0-beta.37"
+    "vuepress": "^2.0.0-beta.45"
   },
   "scripts": {
     "docs:dev": "vuepress dev docs",
